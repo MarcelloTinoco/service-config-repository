@@ -18,4 +18,4 @@ eureka:
 #eureka.client.serviceUrl.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/,${ADDITIONAL_EUREKA_SERVER_LIST}
 #localhost - b9ef924984c4e7e6384495fa143438025fa2f2bad9db3ab903a1c3969af3507f
 app:
- environment: localhost
+ environment: '{cipher}b9ef924984c4e7e6384495fa143438025fa2f2bad9db3ab903a1c3969af3507f'
