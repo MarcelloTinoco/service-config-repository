@@ -13,5 +13,4 @@ eureka:
 
 #eureka.client.serviceUrl.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/,${ADDITIONAL_EUREKA_SERVER_LIST}
 #production - ca88b8ce2d10136fea701ce097ec7963d44999ac0dc9f300ae0eb201f7cbdbb1
-app:
-  environmentname: '{cipher}ca88b8ce2d10136fea701ce097ec7963d44999ac0dc9f300ae0eb201f7cbdbb1'
+app.environmentname: '{cipher}ca88b8ce2d10136fea701ce097ec7963d44999ac0dc9f300ae0eb201f7cbdbb1'
